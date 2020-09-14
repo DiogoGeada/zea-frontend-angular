@@ -1,0 +1,10 @@
+<div class="media">
+    <img class="d-flex mr-3" src="{{data.imageURL}}" alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 font-weight-bold">{{data.productName}}</h5>
+      {{data.releaseDate}}
+      <rating [rating]="data.rating" [numOfReviews]="data.numOfReviews"></rating>
+      <br />
+        {{data.description}}
+    </div>
+</div>
